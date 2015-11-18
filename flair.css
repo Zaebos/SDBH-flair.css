@@ -128,46 +128,21 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href="/user/moshi"]:not(.upvoatsGiven) {
+a[href$="/user/moshi"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href="/user/moshi"]:not(.upvoatsGiven)::after {
-visibility: visible;
-font-size: 12px;
-content: " moeᶠᶸᶜᵏ♥ᵧₒᵤshi ";
-background: red; 
-border-radius: 0px;
-border: hidden;
-background: -moz-linear-gradient( top ,
-rgba(255, 0, 0, 1) 0%,
-rgba(255, 255, 0, 1) 15%,
-rgba(0, 255, 0, 1) 30%,
-rgba(0, 255, 255, 1) 50%,
-rgba(0, 0, 255, 1) 65%,
-rgba(255, 0, 255, 1) 80%,
-rgba(255, 0, 0, 1) 100%);
-background: -webkit-gradient(linear,  left top,  left bottom, 
-color-stop(0%, rgba(255, 0, 0, 1)), 
-color-stop(15%, rgba(255, 255, 0, 1)),
-color-stop(30%, rgba(0, 255, 0, 1)),
-color-stop(50%, rgba(0, 255, 255, 1)),
-color-stop(65%, rgba(0, 0, 255, 1)),
-color-stop(80%, rgba(255, 0, 255, 1)),
-color-stop(100%, rgba(255, 0, 0, 1)));
-}
-
-a[href="/user/moshi"]:not(.upvoatsGiven)::before {
+a[href$="/user/moshi"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
-background-image: url(http://i.imgur.com/XCD8czK.gif);
+background-image: url(http://i.imgur.com/POkiiLa.png);
 background-size: 100%;
-border-radius: 10px;
-width: 20px;
-height: 20px;
+border-radius: 1px ;
+width: 30px;
+height: 34px;
 vertical-align: middle;
 margin-right: .3em;
 border: hidden;
