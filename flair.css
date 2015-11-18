@@ -134,7 +134,7 @@ word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/moshi"]:not(.upvoatsGiven)::after {
+a[href="/user/moshi"]:not(.upvoatsGiven)::after {
 visibility: visible;
 font-size: 12px;
 content: " moeᶠᶸᶜᵏ♥ᵧₒᵤshi ";
@@ -159,7 +159,7 @@ color-stop(80%, rgba(255, 0, 255, 1)),
 color-stop(100%, rgba(255, 0, 0, 1)));
 }
 
-.author[href$="/moshi"]:not(.upvoatsGiven)::before {
+a[href="/user/moshi"]:not(.upvoatsGiven)::before {
 visibility: visible;
 content: '';
 display: inline-block;
