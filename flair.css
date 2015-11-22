@@ -802,26 +802,6 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/Gate77"]:not(.upvoatsGiven) {
-visibility: hidden;
-word-spacing: -999px;
-letter-spacing: -999px;
-}
-
-a[href$="/user/Gate77"]:not(.upvoatsGiven)::after {
-visibility: visible;
-content: "ShitGate77";
-word-spacing: normal;
-letter-spacing: normal;
-margin-bottom: 3px;
-position: relative;
-font-family: Arial, Helvetica, sans-serif;
-font-size: 12px;
-background: transparent;
-color: #3399CC;
-border-style: hidden;
-}
-
 a[href="/user/30GoingOn13"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
