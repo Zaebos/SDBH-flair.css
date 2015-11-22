@@ -837,7 +837,7 @@ margin-bottom: 3px;
 position: relative;
 font-family: Arial, Helvetica, sans-serif;
 font-size: 12px;
-background: rgb(48,48,48);
+background: transparent;
 color: #3399CC;
 border-style: hidden;
 }
