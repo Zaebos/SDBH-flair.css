@@ -782,26 +782,6 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/dallasmuseum"]:not(.upvoatsGiven) {
-visibility: hidden;
-word-spacing: -999px;
-letter-spacing: -999px;
-}
-
-a[href$="/user/dallasmuseum"]:not(.upvoatsGiven)::after {
-visibility: visible;
-content: '';
-display: inline-block;
-background-image: url(https://i.imgur.com/wQo4IrO.gif);
-background-size: 100%;
-border-radius: 0px ;
-width: 20px;
-height: 27px;
-vertical-align: middle;
-margin-right: .3em;
-border: hidden;
-}
-
 a[href="/user/30GoingOn13"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
