@@ -863,21 +863,161 @@ border: hidden;
 }
 
 a[href="/user/Weebo"]:not(.upvoatsGiven) {
-   visibility: hidden;
-   word-spacing: -999px;
-   letter-spacing: -999px;
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
 }
 
 a[href="/user/Weebo"]:not(upvoatsGiven)::after {
-    visibility: visible;
-    content: '';
-    display: inline-block;
-    background-image: url(http://i.imgur.com/Kao7X5F.png);
-    border-radius: 2px;
-    background-size: 100%;
-    width: 25px;
-    height: 25px;
-    vertical-align: middle;
-    margin-right: .3em;
-    border: hidden;
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(http://i.imgur.com/Kao7X5F.png);
+border-radius: 2px;
+background-size: 100%;
+width: 25px;
+height: 25px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/user/Amaleks_wife"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/Amaleks_wife"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(http://i.imgur.com/kVcvnWb.jpg?1);
+background-size: 100%;
+border-radius: 2px ;
+width: 50px;
+height: 25px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/user/kevdude"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/kevdude"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(http://i.imgur.com/dAySPrm.jpg?1);
+background-size: 100%;
+border-radius: 2px ;
+width: 40px;
+height: 22px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/user/lackscompassion"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/lackscompassion"]:not(upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(http://i.imgur.com/G0ri7H1.png);
+background-size: 100%;
+border-radius: 0px ;
+width: 190px;
+height: 39px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/user/farmer-"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/farmer-"]:not(upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(http://i.imgur.com/0NP40pE.jpg?1);
+background-size: 100%;
+border-radius: 10px ;
+width: 25px;
+height: 35px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/user/HomerSimpson"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/HomerSimpson"]:not(upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(http://i.imgur.com/FwW6QrT.jpg);
+background-size: 100%;
+border-radius: 0px ;
+width: 30px;
+height: 35px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/user/Gate77"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/Gate77"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(http://i.imgur.com/ZaYMoXF.png);
+background-size: 100%;
+border-radius: 2px ;
+width: 35px;
+height: 35px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/user/dallasmuseum"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/dallasmuseum"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(http://i.imgur.com/K7WKDlx.gif);
+background-size: 100%;
+border-radius: 10px;
+width: 35px;
+height: 25px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
 }
