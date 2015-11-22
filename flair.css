@@ -503,26 +503,6 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/lackscompassion"]:not(.upvoatsGiven) {
-visibility: hidden;
-word-spacing: -999px;
-letter-spacing: -999px;
-}
-
-a[href$="/user/lackscompassion"]:not(upvoatsGiven)::after {
-visibility: visible;
-content: "Shitpost Prophet";
-word-spacing: normal;
-letter-spacing: normal;
-position: relative;
-font-family: Arial, Helvetica, sans-serif;
-margin-bottom: 3px;
-font-size: 12px;
-background: transparent;
-color: #00FF00;
-border-style: hidden;
-}
-
 a[href$="/user/NihilistsLivesMatter"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
