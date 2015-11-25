@@ -268,26 +268,6 @@ border: hidden;
 content: "Fucking hippie";
 }
 
-a[href$="/user/jambo"]:not(.upvoatsGiven) {
-visibility: hidden;
-word-spacing: -999px;
-letter-spacing: -999px;
-}
-
-a[href="/user/jambo"]:not(.upvoatsGiven)::after {
-visibility: visible;
-content: '';
-display: inline-block;
-background-image: url(http://i.imgur.com/XKuZzyh.jpg?1);
-background-size: 100%;
-border-radius: 0px ;
-width: 20px;
-height: 20px;
-vertical-align: middle;
-margin-right: .3em;
-border: hidden;
-}
-
 a[href="/user/kevdouche"]:not(.upvoatsGiven)::after {
 content: "From /v/ProtectVoat";
 }
