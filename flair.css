@@ -1005,26 +1005,6 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href="/user/Xanthia"]:not(.upvoatsGiven) {
-visibility: hidden;
-word-spacing: -999px;
-letter-spacing: -999px;
-}
-
-a[href="/user/Xanthia"]:not(upvoatsGiven)::after {
-visibility: visible;
-content: '';
-display: inline-block;
-background-image: url(http://i.imgur.com/vRszxUd.png);
-border-radius: 2px;
-background-size: 100%;
-width: 35px;
-height: 45px;
-vertical-align: middle;
-margin-right: .3em;
-border: hidden;
-}
-
 a[href="/user/NoahWard"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
