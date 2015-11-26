@@ -601,13 +601,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/Mercuenomia"]:not(.upvoatsGiven) {
+a[href$="/user/Mercuenomia"]:not(.upvoatsGiven),
+a[href$="/user/mercuenomia"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-.author[href="/user/Mercuenomia"]:not(.upvoatsGiven)::after {
+.author[href="/user/Mercuenomia"]:not(.upvoatsGiven)::after,
+.author[href="/user/mercuenomia"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -621,7 +623,8 @@ margin-right: .3em;
 border: hidden;
 }
 
-.author[href$="/Mercuenomia"]:not(.upvoatsGiven)::before {
+.author[href$="/Mercuenomia"]:not(.upvoatsGiven)::before,
+.author[href$="/mercuenomia"]:not(.upvoatsGiven)::before {
 visibility: visible;
 content: "F.A.G.";
 word-spacing: normal;
