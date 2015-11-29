@@ -168,12 +168,15 @@ margin-right: .3em;
 border: hidden;
 }
 
+a[href$="/user/mattvision"]:not(.upvoatsGiven),
 a[href$="/user/Mattvision"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
+
+a[href$="/user/mattvision"]:not(.upvoatsGiven)::before,
 a[href$="/user/Mattvision"]:not(.upvoatsGiven)::before {
 visibility: visible;
 content: '';
@@ -188,13 +191,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/Zaebos_11"]:not(.upvoatsGiven) {
+a[href$="/user/Zaebos_11"]:not(.upvoatsGiven),
+a[href$="/user/zaebos_11"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
- a[href$="/Zaebos_11"]:not(.upvoatsGiven)::after {
+a[href$="/Zaebos_11"]:not(.upvoatsGiven)::after,
+a[href$="/zaebos_11"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
