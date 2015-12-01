@@ -296,27 +296,6 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href="/user/oddjob"]:not(.upvoatsGiven) {
-visibility: hidden;
-word-spacing: -999px;
-letter-spacing: -999px;
-}
-
-a[href="/user/oddjob"]:not(.upvoatsGiven)::after {
-visibility: visible;
-background: #FF0099 none repeat scroll 0% 0%; 
-border: 2px solid #66CCFF;
-color: #000; 
-border-radius: 10px; 
-color: #330066; 
-display: inline-block; 
-font-family: inherit; 
-font-size: 10px; 
-word-spacing: normal;
-letter-spacing: normal;
-content: " ♥ oddjob's cock"; 
-}
-
 a[href="/user/unruly"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
