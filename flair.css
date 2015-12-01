@@ -1279,26 +1279,6 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href="/user/GingerSoul"]:not(.upvoatsGiven) {
-visibility: hidden;
-word-spacing: -999px;
-letter-spacing: -999px;
-}
-
-a[href="/user/GingerSoul"]:not(upvoatsGiven)::after {
-visibility: visible;
-content: '';
-display: inline-block;
-background-image: url(http://i.imgur.com/vCc4iPW.gif);
-border-radius: 2px;
-background-size: 100%;
-width: 45px;
-height: 45px;
-vertical-align: middle;
-margin-right: .3em;
-border: hidden;
-}
-
 a[href="/user/the_boar"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
