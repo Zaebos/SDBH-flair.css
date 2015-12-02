@@ -967,19 +967,19 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/jambo"]:not(.upvoatsGiven) {
+a[href="/user/jambo"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href="/user/jambo"]:not(.upvoatsGiven)::after {
+a[href="/user/jambo"]:not(upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
 background-image: url(http://i.imgur.com/GpAfCqH.png);
+border-radius: 2px;
 background-size: 100%;
-border-radius: 0px ;
 width: 32px;
 height: 45px;
 vertical-align: middle;
