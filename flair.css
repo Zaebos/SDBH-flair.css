@@ -164,21 +164,6 @@ word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/Zaebos_11"]:not(.upvoatsGiven)::after,
-a[href$="/zaebos_11"]:not(.upvoatsGiven)::after {
-visibility: visible;
-content: '';
-display: inline-block;
-background-image: url(http://i.imgur.com/dLcZrD2.png);
-background-size: 100%;
-border-radius: 10px;
-width: 20px;
-height: 20px;
-vertical-align: middle;
-margin-right: .3em;
-border: hidden;
-}
-
 a[href$="/user/redditbelowsme"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
