@@ -135,7 +135,7 @@ height: 33px;
 
 a[href$="/user/jobes"]:not(upvoatsGiven)::after {
 visibility: visible;
-background-image: url(https://i.imgur.com/jnf65Hw.jpg);
+background-image: url(http://i.imgur.com/jnf65Hw.jpg);
 border-radius: 2px;
 width: 40px;
 height: 40px;
@@ -168,7 +168,7 @@ height: 25px;
 a[href$="/user/mattvision"]:not(.upvoatsGiven)::before,
 a[href$="/user/Mattvision"]:not(.upvoatsGiven)::before {
 visibility: visible;
-background-image: url(https://i.imgur.com/jHV4eqt.jpg);
+background-image: url(http://i.imgur.com/jHV4eqt.jpg);
 border-radius: 2px;
 width: 31px;
 height: 35px;
@@ -185,7 +185,7 @@ height: 20px;
 
 a[href$="/user/redditbelowsme"]:not(.upvoatsGiven)::before {
 visibility: visible;
-background-image: url(https://i.imgur.com/fLGUahh.gif);
+background-image: url(http://i.imgur.com/fLGUahh.gif);
 border-radius: 2px;
 width: 24px;
 height: 23px;
@@ -241,7 +241,7 @@ height: 35px;
 
 a[href$$="/user/Boukert"]:not(upvoatsGiven)::after {
 visibility: visible;
-background-image: url(https://i.imgur.com/9heeUt3.gif);
+background-image: url(http://i.imgur.com/9heeUt3.gif);
 border-radius: 2px;
 width: 42px;
 height: 35px;
@@ -249,7 +249,7 @@ height: 35px;
 
 a[href$="/user/PM_ME_YOUR_ARCHES"]:not(.upvoatsGiven)::before {
 visibility: visible;
-background-image: url(https://i.imgur.com/he4utfc.gif);
+background-image: url(http://i.imgur.com/he4utfc.gif);
 border-radius: 2px;
 width: 45px;
 height: 42px;
@@ -355,7 +355,7 @@ height: 15px;
 
 a[href$="/user/ShagginTurtles"]:not(.upvoatsGiven)::before {
 visibility: visible;
-background-image: url(https://www.psypokes.com/dex/picdex/crystal/019.gif);
+background-image: url(http://www.psypokes.com/dex/picdex/crystal/019.gif);
 border-radius: 2px;
 width: 40px;
 height: 40px;
@@ -434,7 +434,7 @@ border-style: hidden;
 
 a[href$="/user/Techius"]:not(upvoatsGiven)::after {
 visibility: visible;
-background-image: url(https://i.imgur.com/XndmFZd.jpg?1);
+background-image: url(http://i.imgur.com/XndmFZd.jpg?1);
 border-radius: 10px ;
 width: 30px;
 height: 32px;
@@ -466,7 +466,7 @@ height: 22px;
 
 a[href$="/user/lackscompassion"]:not(upvoatsGiven)::after {
 visibility: visible;
-background-image: url(https://i.imgur.com/G0ri7H1.png);
+background-image: url(http://i.imgur.com/G0ri7H1.png);
 width: 190px;
 height: 39px;
 }
