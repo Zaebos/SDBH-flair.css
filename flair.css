@@ -164,7 +164,8 @@ word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/Zaebos_11"]:not(upvoatsGiven)::after {
+a[href$="/user/Zaebos_11"]:not(.upvoatsGiven)::after,
+a[href$="/user/zaebos_11"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
