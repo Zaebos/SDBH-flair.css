@@ -179,13 +179,13 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/redditbelowsme"]:not(.upvoatsGiven) {
+a[href="/user/redditbelowsme"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/redditbelowsme"]:not(.upvoatsGiven)::before {
+a[href="/user/redditbelowsme"]:not(.upvoatsGiven)::before {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -199,13 +199,13 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/pornhub_katie"]:not(.upvoatsGiven) {
+a[href="/user/pornhub_katie"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/pornhub_katie"]:not(.upvoatsGiven)::after {
+a[href="/user/pornhub_katie"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -219,7 +219,7 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/itazuka"]:not(.upvoatsGiven) {
+a[href="/user/itazuka"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
@@ -284,7 +284,7 @@ letter-spacing: normal;
 content: "Mummy's Big Boy"; 
 }
 
-a[href$="/user/singingoncloudnine"]:not(.upvoatsGiven) {
+a[href="/user/singingoncloudnine"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
@@ -303,15 +303,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/mikehawksragen"]:not(.upvoatsGiven)
-a[href$="/user/MikeHawksRagen"]:not(.upvoatsGiven) {
+a[href="/user/mikehawksragen"]:not(.upvoatsGiven),
+a[href="/user/MikeHawksRagen"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/mikehawksragen"]:not(.upvoatsGiven)::after,
-a[href$="/user/MikeHawksRagen"]:not(.upvoatsGiven)::after {
+a[href="/user/mikehawksragen"]:not(.upvoatsGiven)::after,
+a[href="/user/MikeHawksRagen"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -325,15 +325,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/g4"]:not(.upvoatsGiven), 
-a[href$="/user/G4"]:not(.upvoatsGiven) {
+a[href="/user/g4"]:not(.upvoatsGiven), 
+a[href="/user/G4"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/g4"]:not(.upvoatsGiven)::before,
-a[href$="/user/G4"]:not(.upvoatsGiven)::before {
+a[href="/user/g4"]:not(.upvoatsGiven)::before,
+a[href="/user/G4"]:not(.upvoatsGiven)::before {
 visibility: visible;
 content: '';
 display: inline-block;
