@@ -243,12 +243,14 @@ a[href="/user/kevdouche"]:not(.upvoatsGiven)::after {
 content: "From /v/ProtectVoat";
 }
 
+a[href="/user/amaleksgirlfriend"]:not(.upvoatsGiven),
 a[href="/user/AmaleksGirlfriend"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
+a[href="/user/amaleksgirlfriend"]:not(upvoatsGiven)::after,
 a[href="/user/AmaleksGirlfriend"]:not(upvoatsGiven)::after {
 visibility: visible;
 content: '';
@@ -301,12 +303,14 @@ margin-right: .3em;
 border: hidden;
 }
 
+a[href$="/user/mikehawksragen"]:not(.upvoatsGiven)
 a[href$="/user/MikeHawksRagen"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
+a[href$="/user/mikehawksragen"]:not(.upvoatsGiven)::after,
 a[href$="/user/MikeHawksRagen"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
@@ -321,12 +325,14 @@ margin-right: .3em;
 border: hidden;
 }
 
+a[href$="/user/g4"]:not(.upvoatsGiven), 
 a[href$="/user/G4"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
+a[href$="/user/g4"]:not(.upvoatsGiven)::before,
 a[href$="/user/G4"]:not(.upvoatsGiven)::before {
 visibility: visible;
 content: '';
@@ -341,12 +347,14 @@ margin-right: .3em;
 border: hidden;
 }
 
+a[href="/user/boukert"]:not(.upvoatsGiven),
 a[href="/user/Boukert"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
+a[href="/user/boukert"]:not(upvoatsGiven)::after,
 a[href="/user/Boukert"]:not(upvoatsGiven)::after {
 visibility: visible;
 content: '';
@@ -361,12 +369,14 @@ margin-right: .3em;
 border: hidden;
 }
 
+a[href$="/user/pm_me_your_arches"]:not(.upvoatsGiven),
 a[href$="/user/PM_ME_YOUR_ARCHES"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
+a[href$="/user/pm_me_your_arches"]:not(.upvoatsGiven)::before,
 a[href$="/user/PM_ME_YOUR_ARCHES"]:not(.upvoatsGiven)::before {
 visibility: visible;
 content: '';
@@ -401,12 +411,14 @@ margin-right: .3em;
 border: hidden;
 }
 
+a[href$="/user/nihilistslivesmatter"]:not(.upvoatsGiven),
 a[href$="/user/NihilistsLivesMatter"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
+a[href="/user/nihilistslivesmatter"]:not(upvoatsGiven)::after,
 a[href="/user/NihilistsLivesMatter"]:not(upvoatsGiven)::after {
 visibility: visible;
 content: '';
@@ -421,12 +433,14 @@ margin-right: .3em;
 border: hidden;;
 }
 
+a[href$="/user/fizzit86"]:not(.upvoatsGiven),
 a[href$="/user/Fizzit86"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
+a[href="/user/fizzit86"]:not(.upvoatsGiven)::after, 
 a[href="/user/Fizzit86"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
