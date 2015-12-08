@@ -1411,7 +1411,7 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href="/user/LittleAltr"]:not(.upvoatsGiven),
+a[href="/user/LittleAlt"]:not(.upvoatsGiven),
 a[href="/user/littlealt"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
