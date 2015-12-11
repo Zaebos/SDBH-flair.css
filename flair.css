@@ -64,11 +64,11 @@ a[href="/user/jobes"]:not(upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
-background-image: url(https://i.imgur.com/jnf65Hw.jpg);
+background-image: url(https://i.imgur.com/m4cyT42.png);
 border-radius: 2px;
 background-size: 100%;
-width: 40px;
-height: 40px;
+width: 35px;
+height: 53px;
 vertical-align: middle;
 margin-right: .3em;
 border: hidden;
