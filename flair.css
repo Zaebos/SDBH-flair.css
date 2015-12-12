@@ -1060,7 +1060,7 @@ a[href="/user/Xanthia"]:not(upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
-background-image: url(httpss://i.imgur.com/Jt7W8pv.png?1);
+background-image: url(https://i.imgur.com/Jt7W8pv.png?1);
 border-radius: 2px;
 background-size: 100%;
 width: 45px;
