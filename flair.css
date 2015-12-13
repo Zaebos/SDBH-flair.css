@@ -141,17 +141,16 @@ word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-
 a[href$="/user/mattvision"]:not(.upvoatsGiven)::before,
 a[href$="/user/Mattvision"]:not(.upvoatsGiven)::before {
 visibility: visible;
 content: '';
 display: inline-block;
-background-image: url(https://i.imgur.com/jHV4eqt.jpg);
-border-radius: 2px;
+background-image: url(http://i.imgur.com/ouffDYq.gif);
+border-radius: 0px;
 background-size: 100%;
-width: 31px;
-height: 35px;
+width: 40px;
+height: 26px;
 vertical-align: middle;
 margin-right: .3em;
 border: hidden;
