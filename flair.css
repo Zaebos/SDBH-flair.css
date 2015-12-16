@@ -84,11 +84,11 @@ a[href$="/user/w00zi"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
-background-image: url(https://i.imgur.com/V354deJ.jpg);
+background-image: url(http://i.imgur.com/Ns2T3DF.png);
 background-size: 100%;
 border-radius: 5px ;
-width: 80px;
-height: 15px;
+width: 200px;
+height: 20px;
 vertical-align: middle;
 margin-right: .3em;
 border: hidden;
