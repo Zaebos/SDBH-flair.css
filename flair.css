@@ -84,7 +84,7 @@ a[href$="/user/w00zi"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
-background-image: url(http://i.imgur.com/5izUP1D.gif);
+background-image: url(https://i.imgur.com/5izUP1D.gif);
 background-size: 100%;
 border-radius: 5px ;
 width: 200px;
@@ -146,7 +146,7 @@ a[href$="/user/Mattvision"]:not(.upvoatsGiven)::before {
 visibility: visible;
 content: '';
 display: inline-block;
-background-image: url(http://i.imgur.com/ouffDYq.gif);
+background-image: url(https://i.imgur.com/ouffDYq.gif);
 border-radius: 0px;
 background-size: 100%;
 width: 40px;
@@ -1019,7 +1019,7 @@ a[href$="/user/insanity_wolf"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
-background-image: url(https://veuwer.com/i/3eij.jpg);
+background-image: url();
 border-radius: 10px;
 background-size: 100%;
 width: 57px;
@@ -1263,7 +1263,7 @@ a[href="/user/Polygoner"]:not(upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
-background-image: url(http://i.imgur.com/zZCE8Td.gif);
+background-image: url(https://i.imgur.com/zZCE8Td.gif);
 border-radius: 2px;
 background-size: 100%;
 width: 45px;
@@ -1676,7 +1676,7 @@ a[href$="/user/libby"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
-background-image: url(http://i.imgur.com/8UkPxQP.jpg);
+background-image: url(https://i.imgur.com/8UkPxQP.jpg);
 border-radius: 0px;
 background-size: 100%;
 width: 40px;
