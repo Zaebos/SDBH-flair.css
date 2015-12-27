@@ -609,7 +609,7 @@ a[href$="/user/6double5321"]:not(.upvoatsGiven)::before {
 visibility: visible;
 content: '';
 display: inline-block;
-background-image: url(http://i.imgur.com/6lo3skG.jpg);
+background-image: url(https://i.imgur.com/6lo3skG.jpg);
 border-radius: 0px;
 background-size: 100%;
 width: 120px;
