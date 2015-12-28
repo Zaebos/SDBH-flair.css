@@ -263,13 +263,13 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href="/user/unruly"]:not(.upvoatsGiven) {
+a[href="/user/stardusttherat"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href="/user/unruly"]:not(.upvoatsGiven)::after {
+a[href="/user/stardusttherat"]:not(.upvoatsGiven)::after {
 visibility: visible;
 background: #55AA33 none repeat scroll 0% 0%; 
 border: 2px solid #667700;
@@ -280,7 +280,7 @@ font-family: inherit;
 font-size: 10px; 
 word-spacing: normal;
 letter-spacing: normal;
-content: "Mummy's Big Boy"; 
+content: "The Unruly Rat"; 
 }
 
 a[href="/user/singingoncloudnine"]:not(.upvoatsGiven) {
