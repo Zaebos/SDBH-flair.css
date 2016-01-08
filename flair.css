@@ -619,46 +619,6 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/Failure"]:not(.upvoatsGiven) {
-visibility: hidden;
-word-spacing: -999px;
-letter-spacing: -999px;
-}
-
-a[href$="/user/Failure"]:not(.upvoatsGiven)::after {
-visibility: visible;
-content: "kevdude";
-word-spacing: normal;
-letter-spacing: normal;
-position: relative;
-font-family: Arial, Helvetica, sans-serif;
-font-size: 12px;
-margin-bottom: 3px;
-background: transparent;
-color: #3399CC;
-border-style: hidden;
-}
-
-a[href="/user/Techius"]:not(.upvoatsGiven) {
-visibility: hidden;
-word-spacing: -999px;
-letter-spacing: -999px;
-}
-
-a[href="/user/Techius"]:not(upvoatsGiven)::after {
-visibility: visible;
-content: '';
-display: inline-block;
-background-image: url(https://i.imgur.com/MLE7yvT.jpg);
-background-size: 100%;
-border-radius: 10px ;
-width: 30px;
-height: 32px;
-vertical-align: middle;
-margin-right: .3em;
-border: hidden;
-}
-
 a[href="/user/illpoet"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
