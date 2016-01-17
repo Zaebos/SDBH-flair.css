@@ -158,26 +158,6 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href="/user/redditbelowsme"]:not(.upvoatsGiven) {
-visibility: hidden;
-word-spacing: -999px;
-letter-spacing: -999px;
-}
-
-a[href="/user/redditbelowsme"]:not(.upvoatsGiven)::before {
-visibility: visible;
-content: '';
-display: inline-block;
-background-image: url(https://i.imgur.com/fLGUahh.gif);
-border-radius: 2px;
-background-size: 100%;
-width: 24px;
-height: 23px;
-vertical-align: middle;
-margin-right: .3em;
-border: hidden;
-}
-
 a[href="/user/itazuka"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
@@ -196,26 +176,6 @@ background-attachment: fixed;
 color: #000;
 border: hidden;
 content: "Fucking hippie";
-}
-
-a[href="/user/unruly"]:not(.upvoatsGiven) {
-visibility: hidden;
-word-spacing: -999px;
-letter-spacing: -999px;
-}
-
-a[href="/user/unruly"]:not(.upvoatsGiven)::after {
-visibility: visible;
-background: #55AA33 none repeat scroll 0% 0%; 
-border: 2px solid #667700;
-color: #000; 
-border-radius: 10px; 
-display: inline-block; 
-font-family: inherit; 
-font-size: 10px; 
-word-spacing: normal;
-letter-spacing: normal;
-content: "The Rat"; 
 }
 
 a[href="/user/singingoncloudnine"]:not(.upvoatsGiven) {
@@ -603,27 +563,6 @@ border-radius: 10px;
 background-size: 100%;
 width: 81px;
 height: 37px;
-vertical-align: middle;
-margin-right: .3em;
-border: hidden;
-}
-
-a[href$="/user/Gerplunckamo"]:not(.upvoatsGiven) {
-visibility: hidden;
-word-spacing: -999px;
-letter-spacing: -999px;
-
-}
-
-a[href$="/user/Gerplunckamo"]:not(.upvoatsGiven)::after {
-visibility: visible;
-content: '';
-display: inline-block;
-background-image: url(https://i.imgur.com/u7SDKI7.jpg?1);
-border-radius: 10px;
-background-size: 100%;
-width: 35px;
-height: 35px;
 vertical-align: middle;
 margin-right: .3em;
 border: hidden;
