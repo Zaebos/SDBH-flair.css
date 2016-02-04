@@ -528,13 +528,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href="/user/NoahWard"]:not(.upvoatsGiven) {
+a[href="/user/NoahWard"]:not(.upvoatsGiven),
+a[href="/user/noahward"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href="/user/NoahWard"]:not(upvoatsGiven)::after {
+a[href="/user/NoahWard"]:not(upvoatsGiven)::after,
+a[href="/user/noahward"]:not(upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
