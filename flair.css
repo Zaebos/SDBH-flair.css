@@ -8,29 +8,29 @@ color: black;
 }
 
 .Grold-Flair {
-display: inline-block;
-background-color: #ff7c02;
+display: inline-block !important;
+background-color: #ff7c02 !important;
 }
 
-.Encrypted-Flair {
-display: inline-block;
-background-color: #ff0000;
+.Dox-Flair {
+display: inline-block !important;
+background-color: #ff0000 !important;
 }
 
 .Halp-Flair {
-display: inline-block;
-background: #02F502;
+display: inline-block !important;
+background: #02F502 !important;
 }
 
 .Triggerwarning-Flair {
-display: inline-block;
-background-color: #444444;
+display: inline-block !important;
+background-color: #444444 !important;
 color: red !important;
 }
 
-.CovertOpperations-Flair {
-display: inline-block !important;
-background-color: #CC0000 !important;
+.Drama_llama-Flair {
+display: inline-block; !important;
+background-color: #43617c !important;
 }
 
 .Foreplay-Flair {
@@ -45,14 +45,18 @@ background-color: #C000D8 !important;
 
 .Douchebag-Flair {
 display: inline-block !important;
-background-color: #118300 !important;
+background-color: #00fffa !important;
 }
 
-.Concerned_douchebag-Flair {
+.Concerned_Douchebag-Flair {
 display: inline-block !important;
-background-color: #444444 !important;
-color: white !important;
+background-color: #fff !important;
+color: #000 !important;
 }
+.HR_Faggotry-Flair {
+display: inline-block !important;
+background-color: #ff70be !important;
+color: white !important;	
 
 a[href="/user/jobes"]:not(.upvoatsGiven) {
 visibility: hidden;
