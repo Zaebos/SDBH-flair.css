@@ -213,11 +213,11 @@ a[href="/user/MikeHawksRagen"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
-background-image: url(https://i.imgur.com/XxjG2eH.png);
-border-radius: 2px;
+background-image: url(https://i.imgur.com/n8C0zeD.gif);
+border-radius: 5px;
 background-size: 100%;
-width: 40px;
-height: 35px;
+width: 55px;
+height: 60px;
 vertical-align: middle;
 margin-right: .3em;
 border: hidden;
@@ -1087,26 +1087,6 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href="/user/jesuspiece"]:not(.upvoatsGiven) {
-visibility: hidden;
-word-spacing: -999px;
-letter-spacing: -999px;
-}
-
-a[href="/user/jesuspiece"]:not(.upvoatsGiven)::after {
-visibility: visible;
-content: '';
-display: inline-block;
-background-image: url(https://i.imgur.com/NoY4UWZ.jpg);
-border-radius: 0px;
-background-size: 100%;
-width: 40px;
-height: 35px;
-vertical-align: middle;
-margin-right: .3em;
-border: hidden;
-}
-
 a[href="/user/OmniscientGiraffe"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
@@ -1302,4 +1282,140 @@ margin-bottom: 3px;
 background: transparent;
 color: #3399CC;
 border-style: hidden;
+}
+
+a[href="/user/Alybad"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href="/user/Alybad"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgur.com/uBAiWVW.gif);
+border-radius: 5px;
+background-size: 100%;
+width: 60px;
+height: 30px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/user/littlett"]:not(.upvoatsGiven),
+a[href$="/user/littleTT"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/littlett"]:not(.upvoatsGiven)::before,
+a[href$="/user/littleTT"]:not(.upvoatsGiven)::before {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgur.com/xSLmTGn.gif);
+border-radius: 2px;
+background-size: 100%;
+width: 40px;
+height: 40px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href="/user/penguincheerleader"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href="/user/penguincheerleader"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgur.com/XGoV26M.png);
+border-radius: 5px;
+background-size: 100%;
+width: 30px;
+height: 60px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+.author[href$="/penguincheerleader"]:not(.upvoatsGiven)::before {
+visibility: visible;
+content: " Janet Garrison ";
+word-spacing: normal;
+letter-spacing: normal;
+position: relative;
+font-family:"Comic Sans MS", cursive, sans-serif;
+font-size: 12px;
+background: transparent;
+color: #3399CC;
+border-style: hidden;
+}
+
+a[href="/user/Crensch"]:not(.upvoatsGiven)::after {
+background: #fff;
+border: 0px solid;
+border-radius: 0px;
+color: #000;
+content: " Concerned Douchebag ";
+display: inline-block;
+font-family: inherit;
+font-size: 14px;
+letter-spacing: 1px;
+line-height: 15px;
+margin-right: 3px;
+margin-left: 3px;
+overflow: hidden;
+padding: 2px;
+text-align: center;
+white-space: nowrap;
+box-sizing: border-box;
+vertical-align: middle;
+}
+
+a[href="/user/jesuspiece"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href="/user/jesuspiece"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgur.com/NoY4UWZ.jpg);
+border-radius: 0px;
+background-size: 100%;
+width: 40px;
+height: 35px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href="/user/humblebumble"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href="/user/humblebumble"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(http://i.imgur.com/FfXlOr6.png);
+border-radius: 10px;
+background-size: 100%;
+width: 40px;
+height: 60px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
 }
