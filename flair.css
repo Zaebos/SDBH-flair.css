@@ -111,8 +111,8 @@ display: inline-block;
 background-image: url(https://i.imgur.com/pJcg4Gl.png);
 background-size: 100%;
 border-radius: 7px ;
-width: 60px;
-height: 25px;
+width: 70px;
+height: 31px;
 vertical-align: middle;
 margin-right: .3em;
 border: hidden;
@@ -462,9 +462,9 @@ content: '';
 display: inline-block;
 background-image: url(https://i.imgur.com/0NP40pE.jpg?1);
 background-size: 100%;
-border-radius: 10px ;
-width: 25px;
-height: 35px;
+border-radius: 10px;
+width: 45px;
+height: 63px;
 vertical-align: middle;
 margin-right: .3em;
 border: hidden;
@@ -484,28 +484,6 @@ background-image: url(https://i.imgur.com/FwW6QrT.jpg);
 background-size: 100%;
 border-radius: 0px ;
 width: 30px;
-height: 35px;
-vertical-align: middle;
-margin-right: .3em;
-border: hidden;
-}
-
-a[href="/user/Gate77"]:not(.upvoatsGiven),
-a[href="/user/gate77"]:not(.upvoatsGiven) {
-visibility: hidden;
-word-spacing: -999px;
-letter-spacing: -999px;
-}
-
-a[href="/user/Gate77"]:not(.upvoatsGiven)::after,
-a[href="/user/gate77"]:not(.upvoatsGiven)::after {
-visibility: visible;
-content: '';
-display: inline-block;
-background-image: url(https://i.imgur.com/ZaYMoXF.png);
-background-size: 100%;
-border-radius: 2px ;
-width: 35px;
 height: 35px;
 vertical-align: middle;
 margin-right: .3em;
