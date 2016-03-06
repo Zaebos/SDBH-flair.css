@@ -420,7 +420,7 @@ a[href$="/user/kevdude"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
-background-image: url(http://i.imgur.com/xcFN1dE.png);
+background-image: url(https://i.imgur.com/xcFN1dE.png);
 border-radius: 10px;
 background-size: 100%;
 width: 40px;
