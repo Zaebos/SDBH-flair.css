@@ -153,7 +153,7 @@ visibility: visible;
 content: '';
 display: inline-block;
 background-image: url(https://i.imgur.com/DlfZz3C.jpg);
-border-radius: 0px;
+border-radius: 10px;
 background-size: 100%;
 width: 60px;
 height: 60px;
