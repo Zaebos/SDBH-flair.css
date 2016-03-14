@@ -267,28 +267,6 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/pm_me_your_arches"]:not(.upvoatsGiven),
-a[href$="/user/PM_ME_YOUR_ARCHES"]:not(.upvoatsGiven) {
-visibility: hidden;
-word-spacing: -999px;
-letter-spacing: -999px;
-}
-
-a[href$="/user/pm_me_your_arches"]:not(.upvoatsGiven)::before,
-a[href$="/user/PM_ME_YOUR_ARCHES"]:not(.upvoatsGiven)::before {
-visibility: visible;
-content: '';
-display: inline-block;
-background-image: url(https://i.imgur.com/he4utfc.gif);
-border-radius: 2px;
-background-size: 100%;
-width: 45px;
-height: 42px;
-vertical-align: middle;
-margin-right: .3em;
-border: hidden;
-}
-
 a[href$="/user/weejobbie"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
