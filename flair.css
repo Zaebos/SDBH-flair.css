@@ -162,26 +162,6 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href="/user/itazuka"]:not(.upvoatsGiven) {
-visibility: hidden;
-word-spacing: -999px;
-letter-spacing: -999px;
-}
-
-a[href="/user/itazuka"]:not(.upvoatsGiven)::after {
-visibility: visible;
-word-spacing: normal;
-letter-spacing: normal;
-font-size: 10px;
-background-image: url(https://i.imgur.com/pl72jm4.jpg);
-background-position: top left;
-background-repeat: repeat;
-background-attachment: fixed;
-color: #000;
-border: hidden;
-content: "Fucking hippie";
-}
-
 a[href="/user/singingoncloudnine"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
@@ -673,26 +653,6 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/JJEvil"]:not(.upvoatsGiven) {
-visibility: hidden;
-word-spacing: -999px;
-letter-spacing: -999px;
-}
-
-a[href$="/user/JJEvil"]:not(.upvoatsGiven)::after {
-background-image: url(https://i.imgur.com/nVbBFn1.gif);
-visibility: visible;
-content: '';
-display: inline-block;
-border-radius: 2px;
-background-size: 100%;
-width: 33px;
-height: 40px;
-vertical-align: middle;
-margin-right: .3em;
-border: hidden;
-}
-
 a[href$="/user/Caddis"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
@@ -1123,7 +1083,6 @@ margin-right: .3em;
 border: hidden;
 }
 
-
 a[href$="/user/pembo210"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
@@ -1139,6 +1098,42 @@ background-size: 100%;
 border-radius: 10px ;
 width: 30px;
 height: 35px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href="/user/techius"]:not(.upvoatsGiven),
+a[href="/user/Techius"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+a[href="/user/Techius"]:not(.upvoatsGiven)::after,
+a[href="/user/techius"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgur.com/8i9LVqB.png) !important;
+background-size: 100%;
+border-radius: 30px ;
+width: 75px;
+height: 75px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href="/user/Techius"]:not(.upvoatsGiven):hover::after,
+a[href="/user/techius"]:not(.upvoatsGiven):hover::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgur.com/8T5fy4g.png) !important;
+background-size: 100%;
+border-radius: 50px ;
+width: 75px;
+height: 75px;
 vertical-align: middle;
 margin-right: .3em;
 border: hidden;
@@ -1162,42 +1157,6 @@ height: 35px;
 vertical-align: middle;
 margin-right: .3em;
 border: hidden;
-}
-
-a[href$="/user/Techius"]:not(.upvoatsGiven) {
-visibility: hidden;
-word-spacing: -999px;
-letter-spacing: -999px;
-}
-
-a[href="/user/Techius"]:not(.upvoatsGiven)::after,
-a[href="/user/techius"]:not(.upvoatsGiven)::after {
-visibility: visible;
-content: '';
-display: inline-block;
-background-image: url(https://i.imgur.com/N7HXAVe.png);
-background-size: 100%;
-border-radius: 0px ;
-width: 30px;
-height: 40px;
-vertical-align: middle;
-margin-right: .3em;
-border: hidden;
-}
-
-.author[href$="/user/Techius"]:not(.upvoatsGiven)::before,
-.author[href$="/user/techius"]:not(.upvoatsGiven)::before {
-visibility: visible;
-content: "Corky";
-word-spacing: normal;
-letter-spacing: normal;
-position: relative;
-margin-right: 3px;
-font-family:"Comic Sans MS", cursive, sans-serif;
-font-size: 12px;
-background: transparent;
-color: #3399CC;
-border-style: hidden;
 }
 
 a[href$="/user/pornhub_katie"]:not(.upvoatsGiven) {
@@ -1370,6 +1329,125 @@ border-radius: 10px;
 background-size: 100%;
 width: 40px;
 height: 60px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/user/PntBtr"]:not(.upvoatsGiven),
+a[href$="/user/pntbtr"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/PntBtr"]:not(.upvoatsGiven)::before,
+a[href$="/user/pntbtr"]:not(.upvoatsGiven)::before {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgur.com/Q3lBwHA.jpg);
+border-radius: 5px;
+background-size: 100%;
+width: 70px;
+height: 70px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href="/user/highly_paid_orgy_pro"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href="/user/highly_paid_orgy_pro"]:not(upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgur.com/g4PBSUr.png);
+border-radius: 5px;
+background-size: 100%;
+width: 90px;
+height: 32px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href="/user/itazuka"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href="/user/itazuka"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: "Fucking hippie";
+word-spacing: normal;
+letter-spacing: normal;
+font-size: 15px;
+ background-size: 100% 100% !important;
+position: absolute;
+background-image: url(https://i.imgur.com/pl72jm4.jpg);
+background-repeat: repeat;
+background-attachment: fixed;
+color: #000;
+border: hidden;
+border-radius: 10px;
+}
+
+a[href="/user/itazuka"]:not(.upvoatsGiven):hover::before {
+visibility: visible;
+content: "";
+display: inline-block;
+background-image: url(https://i.imgur.com/ynrYrhx.png);
+border-radius: 2px;
+background-size: 100% 100%;
+width: 75px;
+height: 60px;
+vertical-align:top;
+margin-right: .3em;
+border: hidden;
+font-size: 15px !important;
+}
+
+a[href="/user/the_spectre"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href="/user/the_spectre"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgur.com/cKhbWbE.png);
+border-radius: 3px;
+background-size: 100%;
+width: 40px;
+height: 50px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href="/user/unruly"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href="/user/unruly"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgur.com/LSBsV3y.gif);
+border-radius: 10px;
+background-size: 100%;
+width: 40px;
+height: 30px;
 vertical-align: middle;
 margin-right: .3em;
 border: hidden;
