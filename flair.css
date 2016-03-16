@@ -552,13 +552,14 @@ vertical-align: middle;
 margin-right: .3em;
 border: hidden;
 }
-
+a[href="/user/weebo"]:not(.upvoatsGiven),
 a[href="/user/Weebo"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
+a[href="/user/weebo"]:not(.upvoatsGiven),
 a[href="/user/Weebo"]:not(upvoatsGiven)::after {
 visibility: visible;
 content: '';
