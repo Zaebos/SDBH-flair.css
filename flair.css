@@ -1164,8 +1164,7 @@ margin-right: .3em;
 border: hidden;
 }
 
-.author[href$="/penguincheerleader"]:not(.upvoatsGiven)::before {
-visibility: visible;
+.author[href$="/penguincheerleader"]~ .userattrs:not(.upvoatsGiven)::before {
 content: " Janet Garrison ";
 word-spacing: normal;
 letter-spacing: normal;
