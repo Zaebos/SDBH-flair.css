@@ -518,7 +518,7 @@ word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href="/user/weebo"]:not(.upvoatsGiven),
+a[href="/user/weebo"]:not(.upvoatsGiven)::after,
 a[href="/user/Weebo"]:not(upvoatsGiven)::after {
 visibility: visible;
 content: '';
