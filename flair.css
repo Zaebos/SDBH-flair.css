@@ -727,9 +727,8 @@ margin-right: .3em;
 border: hidden;
 }
 
-.author[href$="/Mercuenomia"]:not(.upvoatsGiven)::before,
-.author[href$="/mercuenomia"]:not(.upvoatsGiven)::before {
-visibility: visible;
+.author[href$="/Mercuenomia"]~ .userattrs:not(.upvoatsGiven)::before,
+.author[href$="/mercuenomia"]~ .userattrs:not(.upvoatsGiven)::before {
 content: "F.A.G.";
 word-spacing: normal;
 letter-spacing: normal;
@@ -1035,9 +1034,8 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href="/user/Techius"]:not(.upvoatsGiven):hover::after,
-a[href="/user/techius"]:not(.upvoatsGiven):hover::after {
-visibility: visible;
+a[href="/user/Techius"]~ .userattrs:not(.upvoatsGiven):hover::after,
+a[href="/user/techius"]~ .userattrs:not(.upvoatsGiven):hover::after {
 content: '';
 display: inline-block;
 background-image: url(https://i.imgur.com/8T5fy4g.png) !important;
