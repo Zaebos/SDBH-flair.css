@@ -1304,7 +1304,7 @@ word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href="/user/highly_paid_orgy_pro"]~ .userattrs:not(upvoatsGiven)::after {
+a[href="/user/highly_paid_orgy_pro"]:not(upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
