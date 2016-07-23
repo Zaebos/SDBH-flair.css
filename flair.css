@@ -1264,3 +1264,23 @@ a[href$="/user/moshi"]:not(.upvoatsGiven)::after {
     margin-right: .3em;
     border: hidden;
 }
+
+a[href="/user/the_spectre"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href="/user/the_spectre"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.sli.mg/xaSVjK.gif);
+border-radius: 0px;
+background-size: 100%;
+width: 50px;
+height: 70px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
