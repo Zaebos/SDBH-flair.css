@@ -1087,7 +1087,7 @@ letter-spacing: -999px;
 
 a[href$="/user/coopzy"]:not(.upvoatsGiven)::before {
 visibility: visible;
-content: " Corky ";
+content: " Michael H. Kenyon ";
 word-spacing: normal;
 letter-spacing: normal;
 position: relative;
